@@ -1,0 +1,87 @@
+/* miniprogram/views/index.wxss */
+.indigo-index-view {
+    width: 100vw;
+    display: flex;
+    color: #297bff;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.title {
+    height: 40px;
+    width: 92vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4vw;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #297bff;
+    line-height: 20px;
+    padding-left: 4vw;
+}
+
+.one-day {
+
+}
+
+.one-day-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 50px;
+    background: white;
+    color: #666666;
+}
+
+.order-item {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    background: white;
+    height: 64px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #333333;
+}
+
+.order-item .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #297bff;
+    margin-right: 15px;
+}
+
+.order-item .icon2 {
+    background: #de68cf;
+}
+
+.order-item .icon3 {
+    background: #de6136;
+}
+
+.order-item .right {
+    width: calc(100vw - 40px - 8vw - 15px);
+    height: 64px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.order-item .price{
+  font-size: 16px;
+  font-weight: 500;
+}
+.summary {
+    margin-top: auto;
+}
+
+.right .info {
+    height: 40px;
+}
+
+page {
+    background: white;
+}

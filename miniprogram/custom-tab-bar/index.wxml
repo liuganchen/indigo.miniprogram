@@ -1,0 +1,25 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<view class="tab-bar">
+    <view class="tab-bar-border"></view>
+    <view class="tab-bar-item" data-path="/views/index/index" bindtap="switchTab">
+        <image class="img"
+                     src="{{selected === 0 ? '/images/order-selected.png' : '/images/order.png'}}"></image>
+        <view class="text" style="color: {{selected === 0 ? selectedColor : color}}">
+            记账
+        </view>
+    </view>
+    <view class="add-btn-container">
+        <view class="white-c">
+            <view class="white-d">
+                <view class="white-e"></view>
+            </view>
+        </view>
+    </view>
+    <view class="tab-bar-item" data-path="/views/user/index" bindtap="switchTab">
+        <image class="img"
+                     src="{{selected === 1 ? '/images/user-selected.png' : '/images/user.png'}}"></image>
+        <view class="text" style="color: {{selected === 1 ? selectedColor : color}}">
+            我的
+        </view>
+    </view>
+</view>
