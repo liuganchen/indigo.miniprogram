@@ -1,7 +1,7 @@
 <!--miniprogram/views/index.wxml-->
 <view class="title">
     <text>支出：¥12.20</text>
-    <text> 积少成多，滴水穿石！</text>
+    <text class="motto"> 积少成多，滴水穿石！</text>
 </view>
 <view class="indigo-index-view">
     <view class="one-day-title">

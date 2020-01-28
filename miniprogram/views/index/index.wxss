@@ -24,7 +24,9 @@
     padding-left: 4vw;
 }
 
-
+text.motto {
+    font-size: 14px;
+}
 
 .one-day-title {
     display: flex;
@@ -72,10 +74,12 @@
     height: 64px;
     /*border-bottom: 1px solid #f0f0f0;*/
 }
-.order-item .price{
-  font-size: 16px;
-  font-weight: 500;
+
+.order-item .price {
+    font-size: 16px;
+    font-weight: 500;
 }
+
 .summary {
     margin-top: auto;
 }
