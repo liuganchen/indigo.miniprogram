@@ -1,2 +1,52 @@
 <!--miniprogram/views/user/index.wxml-->
-<text>3</text>
+<view class="user-view">
+    <view class="header-view" bindtap="getUser">
+        <view class="avatar">
+            <image src="https://www.w3school.com.cn/i/eg_tulip.jpg"></image>
+        </view>
+        <view class="name">刘统勋</view>
+        <view>共220笔</view>
+    </view>
+    <view class="total-price">
+        <view>年总支出：12100</view>
+        <view>年总收入：23333</view>
+    </view>
+    <view class="month red">
+        <view class="icon"></view>
+        <view class="left">
+            <view class="strong">¥300</view>
+            <view class="summary">2020年01月</view>
+        </view>
+        <view class="right flex-center">
+            <text>
+                <text class="summary">收入：</text>
+                ¥200
+            </text>
+        </view>
+    </view>
+    <view class="month yellow">
+        <view class="icon"></view>
+        <view class="left">
+            <view class="strong">¥3032</view>
+            <view class="summary">2019年12月</view>
+        </view>
+        <view class="right flex-center">
+            <text class="summary">收入：</text>
+            <text class="flex-center">¥300</text>
+        </view>
+    </view>
+    <view class="month blue">
+        <view class="icon"></view>
+        <view class="left">
+            <view class="strong">¥330</view>
+            <view class="summary">2019年11月</view>
+        </view>
+        <view class="right flex-center">
+            <text>
+                <text class="summary">收入：</text>
+                ¥400
+            </text>
+        </view>
+    </view>
+
+</view>

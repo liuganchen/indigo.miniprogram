@@ -165,5 +165,10 @@ page {
 }
 .summary{
   font-size: 12px;
-  color: #888888;
+  color: #646464;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

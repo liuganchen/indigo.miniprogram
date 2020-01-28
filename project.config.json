@@ -42,6 +42,26 @@
 					"name": "db guide",
 					"pathName": "pages/databaseGuide/databaseGuide",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "views/user/index",
+					"pathName": "views/user/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "views/index/index",
+					"pathName": "views/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"scene": null
 				}
 			]
 		}

@@ -25,6 +25,7 @@ Page({
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
           wx.getUserInfo({
             success: res => {
+              console.log(res);
               this.setData({
                 avatarUrl: res.userInfo.avatarUrl,
                 userInfo: res.userInfo
@@ -81,7 +82,7 @@ Page({
         })
 
         const filePath = res.tempFilePaths[0]
-        
+
         // 上传图片
         const cloudPath = 'my-image' + filePath.match(/\.[^.]+?$/)[0]
         wx.cloud.uploadFile({
@@ -93,7 +94,7 @@ Page({
             app.globalData.fileID = res.fileID
             app.globalData.cloudPath = cloudPath
             app.globalData.imagePath = filePath
-            
+
             wx.navigateTo({
               url: '../storageConsole/storageConsole'
             })

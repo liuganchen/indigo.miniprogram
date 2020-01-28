@@ -4,40 +4,226 @@
     <text> 积少成多，滴水穿石！</text>
 </view>
 <view class="indigo-index-view">
-    <view class="one-day">
-        <view class="one-day-title">
-            <text>1月9日 今天</text>
-            <text>支出¥2.40 收入¥10000</text>
-        </view>
-        <view class="order-item">
-            <view class="icon"></view>
-            <view class="right flex-between">
-                <view class="info flex-column">
-                    <view>餐饮</view>
-                    <view class="summary">公司楼前买早餐</view>
-                </view>
-                <view class="price">-23.00</view>
+    <view class="one-day-title">
+        <text>1月9日 今天</text>
+        <text>支出¥2.40 收入¥10000</text>
+    </view>
+    <view class="order-item">
+        <view class="icon"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
             </view>
+            <view class="price">-23.00</view>
         </view>
-        <view class="order-item">
-            <view class="icon icon2"></view>
-            <view class="right flex-between">
-                <view class="info flex-column">
-                    <view>餐饮</view>
-                    <view class="summary">公司楼前买早餐</view>
-                </view>
-                <text class="price">-13.20</text>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
             </view>
+            <text class="price">-13.20</text>
         </view>
-        <view class="order-item">
-            <view class="icon icon3"></view>
-            <view class="right flex-between">
-                <view class="info flex-column">
-                    <view>餐饮</view>
-                    <view class="summary">公司楼前买早餐</view>
-                </view>
-                <view class="price">-888.54</view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
             </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <text class="price">-13.20</text>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="one-day-title">
+        <text>1月8日 昨天</text>
+        <text>支出¥2.40 收入¥10000</text>
+    </view>
+    <view class="order-item">
+        <view class="icon"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-23.00</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <text class="price">-13.20</text>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <text class="price">-13.20</text>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="one-day-title">
+        <text>1月7日 前天</text>
+        <text>支出¥2.40 收入¥10000</text>
+    </view>
+    <view class="order-item">
+        <view class="icon"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-23.00</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <text class="price">-13.20</text>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon2"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <text class="price">-13.20</text>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
+        </view>
+    </view>
+    <view class="order-item">
+        <view class="icon icon3"></view>
+        <view class="right flex-between">
+            <view class="info flex-column">
+                <view>餐饮</view>
+                <view class="summary">公司楼前买早餐</view>
+            </view>
+            <view class="price">-888.54</view>
         </view>
     </view>
 </view>
